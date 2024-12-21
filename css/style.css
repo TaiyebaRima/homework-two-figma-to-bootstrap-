@@ -1,0 +1,503 @@
+/* All Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Open Sans;
+}
+a,a :hover{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+   margin: 0; 
+   padding: 0;
+   line-height: 0.8;
+}
+
+/* All Common CSS */
+
+/* Headbar part  start */
+.navbar{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:#1d0cb3
+}
+.navbar-nav{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: aliceblue;
+}
+.nav-link a{
+    color: aliceblue;
+}
+.navbar-collapse{
+    color: aliceblue; 
+}
+
+
+.button{
+ padding: 10px 15px;
+ background-color: #1BBF00;
+ border-radius: 15px;
+}
+/* Headbar part  End */
+
+/* Banner Part Start */
+#bannerpart{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color:#9d96e7;
+    position: relative;
+}
+.bannertext h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Open Sans;
+    margin-bottom: 30px;
+    line-height: 70px;
+    
+}
+.bannertext h6{
+    background: #1BBF00;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.bannertext p{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: paprika;
+    
+    
+}
+span{
+    border: 2px solid #1BBF00;
+    
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.images{
+    width: 100%;
+}
+
+/* Banner Part Endt*/
+
+/* image part */
+.img1{
+    position: absolute;
+    z-index: -1;
+    bottom: -60%;
+   
+}
+.img2{
+    position: absolute;
+    z-index: -1;
+    bottom: -60%;
+   
+}
+.img3{
+    position: absolute;
+    z-index: -1;
+    bottom: -60%;
+   
+}
+.img4{
+    position: absolute;
+    z-index: -1;
+    bottom: -60%;
+   
+}
+
+
+/* image part */
+/* Rating Part  Start */
+#Ratingpart{
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.LeftTextpart{
+    gap: 15px;
+}
+.row{
+    justify-content: space-between;
+} 
+/* Rating Part  End */
+
+
+/* Why Us Part Start */
+
+#whyus{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.whyus{
+    padding: 20px;
+   
+}
+.row h4{
+    font-weight: 800;
+    color: #1BBF00;
+    font-size: 40px;
+}
+.row h6{
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.Textpart h3{
+    font-size: 40px;
+    font-weight: 600;
+     
+}
+.Textpart p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: paprika;
+    font-size: 30px;
+}
+
+
+.button{
+    padding: 10px 15px;
+    background-color: #1BBF00;
+    border-radius: 15px;
+    display: inline-block;
+   }
+.LeftTextpart1{
+   margin-bottom: 20px;
+   }
+.LeftTextpart2{
+ margin-bottom: 20px;
+}
+.LeftTextpart3{
+ margin-bottom: 20px;
+ } 
+ .LeftTextpart4{
+ margin-bottom: 20px;
+}
+.textRight h3{
+    margin-bottom: 20px;
+}
+.textRight p{
+    margin-bottom: 20px;
+
+}
+   
+
+
+/* Why Us Part End */
+
+/* Web Part Start */
+#webpart{
+    padding-top: 120x;
+    padding-bottom: 100px;
+}
+.webpartItem h3{
+    font-size: 40px;
+    font-weight: 500; 
+    margin-bottom: 20px;
+}
+
+.webpartItem p{
+    font-size: 30px;
+    font-weight: 600; 
+    font-family: paprika;
+    margin-top: 20px;
+}
+.web h4{
+    font-size: 30px;
+    font-weight: 600; 
+}
+.last p{
+    border: 2px solid #1BBF00;
+    
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    display: inline-block;
+}
+.web1 h3{
+    margin-top: 50px;
+    
+}
+.web h4{
+    color: black;
+}
+.web1 p{
+    margin-top: 20px;
+}
+.web2{
+    background-color: #7166ce;
+    border-radius: 10px;
+}
+.button2 {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #1BBF00;
+    border-radius: 15px;
+    display: inline-block;
+}
+.web img{
+    margin-bottom: 20px;
+}
+/* Web Part End */
+
+/* Impact Part Start */
+
+#impactpart{
+    padding-top: 80px;
+    padding-bottom: 80px;
+ 
+}
+.toptext h4{
+   font-size: 25px;
+   font-weight: 700;
+}
+.toptext p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 20px;
+ }
+ .content1 h4{
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .content1 p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 15px;
+ }
+ .content2 h4{
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .content2 p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    line-height: 15px;
+    
+ }
+ .allIamges{
+    position: relative;
+    width: 100%;
+ }
+ .IMG1{
+    position: absolute;
+    z-index: 2;
+    left: -70px;
+ }
+ .IMG2{
+    position: absolute;
+    z-index: 1;
+    bottom: -200px;
+
+    
+ } 
+ .IMG3{
+    position: absolute;
+    z-index: 3;
+    top: 120px;
+    left: 60px;
+
+ }  
+ 
+/* Impact Part End */
+
+/* Plan par Start */
+
+#planpart{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.plan1{
+    padding: 60px;
+}
+.plan1 h5{
+    font-size: 16px;
+    font-weight: 600; 
+     
+} 
+.plan1  h6{
+    font-size: 16px;
+    font-weight: 600; 
+    color: rgb(143, 233, 9);  
+} 
+
+.plan1 p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 20px;  
+} 
+.plan2{
+    padding: 60px;
+} 
+.plan2 h5{
+    font-size: 16px;
+    font-weight: 700; 
+    
+} 
+.plan2 h6{
+    font-size: 16px;
+    font-weight: 600; 
+    color: rgb(150, 252, 8);  
+} 
+
+.plan2 p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 20px;  
+} 
+.plan3{
+    padding: 60px;
+} 
+.plan3 h6 {
+    font-size: 16px;
+    font-weight: 600; 
+    color: rgb(145, 235, 12);  
+} 
+.plan3 h5 {
+    font-size: 16px;
+    font-weight: 700; 
+    
+} 
+
+.plan3 p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 20px;  
+} 
+.planpartItem img{
+    width: 100%;
+}
+/* Plan par End */
+
+
+/* ppl Part Start  */
+
+#pplpart{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.col-lg-10 h3{
+    font-size: 25px;
+    font-weight: 700;   
+}
+.col-lg-6 h5{
+    font-size: 35px;
+    font-weight: 600;   
+}
+.col-lg-6 p{
+    font-size: 30px;
+    font-weight: 600; 
+    font-family: paprika; 
+    margin-bottom: 30px; 
+}
+.icons{
+    color: gold;
+}
+
+
+
+/* ppl Part End */
+
+
+/* like part Start */
+
+.rightcontent ul li{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: 500;
+   
+}
+.rightcontent h3{
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 40px;
+}
+
+.rightcontent p{
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.toptext h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.rightcontent{
+    padding: 50px;
+   
+}
+.leftpRT img{
+    width: 100%;
+}
+.content{
+   
+    justify-content: space-between;
+    align-items: center;
+}
+/* last part start */
+#lastpart{
+   padding-top: 150px;
+   padding-bottom: 70px;
+   background: #1d0cb3;
+   color: rgb(148, 163, 177)
+}
+.last{
+    margin-top: 80px;
+}
+.leftC1 p{
+    margin-top: 30px;
+    line-height: 25px;
+}
+.rightC2 ul li{
+    margin-top: 15px; 
+
+}
+.leftC1 h5{
+    font-weight: 500;
+    
+}
+.rightC2 h5{
+    color: #ffff;
+}
+
+
+
+
+
+
+
