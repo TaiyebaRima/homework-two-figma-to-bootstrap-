@@ -44,6 +44,9 @@ p{
 .navbar-collapse{
     color: aliceblue; 
 }
+.navbar-nav ul li{
+    color: #ffff;
+}
 
 
 .button{
@@ -61,7 +64,7 @@ p{
     position: relative;
 }
 .bannertext h1{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 700;
     font-family: Open Sans;
     margin-bottom: 30px;
